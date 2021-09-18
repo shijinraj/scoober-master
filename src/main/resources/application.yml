@@ -1,0 +1,11 @@
+server:
+  port: ${port}
+spring:
+  application:
+    name: ${playerName}
+nextPlayer:
+  name: ${nextPlayerName}
+  url:  ${nextPlayerAPIUrl}
+feign:
+  hystrix:
+    enabled: true
